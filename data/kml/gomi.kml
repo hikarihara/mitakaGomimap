@@ -1,0 +1,1884 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>三鷹市ゴミ袋取り扱い</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+                <href>https://chankumao.files.wordpress.com/2016/01/pin1.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+                <href>https://chankumao.files.wordpress.com/2016/01/pin1.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>ファミリーマート下連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート下連雀店<br>
+<b>住所:</b> 下連雀1-8-15
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀1-8-15</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)太田ふとん店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)太田ふとん店<br>
+<b>住所:</b> 下連雀1-11-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀1-11-7</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)マサキ屋商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)マサキ屋商店<br>
+<b>住所:</b> 下連雀1-13-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀1-13-1</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹の森店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹の森店<br>
+<b>住所:</b> 下連雀1-13-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀1-13-7</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン下連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン下連雀店<br>
+<b>住所:</b> 下連雀2-27-8
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀2-27-8</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹駅前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹駅前店<br>
+<b>住所:</b> 下連雀3-24-12
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-24-12</address>
+		</Placemark>
+		<Placemark>
+			<name>(株)オオゼキ三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (株)オオゼキ三鷹店<br>
+<b>住所:</b> 下連雀3-25-11-2Ｆ
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-25-11-2Ｆ</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹駅前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹駅前店<br>
+<b>住所:</b> 下連雀3-27-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-27-1</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)碇屋商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)碇屋商店<br>
+<b>住所:</b> 下連雀3-28-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-28-2</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹センター 東急ストア</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 三鷹センター 東急ストア<br>
+<b>住所:</b> 下連雀3-28-23
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-28-23</address>
+		</Placemark>
+		<Placemark>
+			<name>サンクス三鷹中央通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンクス三鷹中央通り店<br>
+<b>住所:</b> 下連雀3-30-12
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-30-12</address>
+		</Placemark>
+		<Placemark>
+			<name>ライフイン名取屋 名取屋興産㈱</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ライフイン名取屋 名取屋興産㈱<br>
+<b>住所:</b> 下連雀3-32-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-32-3</address>
+		</Placemark>
+		<Placemark>
+			<name>㈱宮本薬局</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ㈱宮本薬局<br>
+<b>住所:</b> 下連雀3-32-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-32-5</address>
+		</Placemark>
+		<Placemark>
+			<name>ヒロヤショップ</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ヒロヤショップ<br>
+<b>住所:</b> 下連雀3-33-6
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-33-6</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹下連雀３丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹下連雀３丁目店<br>
+<b>住所:</b> 下連雀3-37-4
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-37-4</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹南店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹南店<br>
+<b>住所:</b> 下連雀3-41-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-41-11</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹仲通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹仲通り店<br>
+<b>住所:</b> 下連雀4-1-16
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀4-1-16</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)山本酒店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)山本酒店<br>
+<b>住所:</b> 下連雀4-16-18
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀4-16-18</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹駅南通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹駅南通り店<br>
+<b>住所:</b> 下連雀4-17-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀4-17-3</address>
+		</Placemark>
+		<Placemark>
+			<name>原米穀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 原米穀店<br>
+<b>住所:</b> 下連雀4-20-24
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀4-20-24</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート山中通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート山中通り店<br>
+<b>住所:</b> 下連雀6-6-38
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀6-6-38</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン南浦店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン南浦店<br>
+<b>住所:</b> 下連雀6-15-27
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀6-15-27</address>
+		</Placemark>
+		<Placemark>
+			<name>大阪屋酒店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 大阪屋酒店<br>
+<b>住所:</b> 下連雀7-1-18
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀7-1-18</address>
+		</Placemark>
+		<Placemark>
+			<name>ミニストップ三鷹下連雀店 (有)宙</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ミニストップ三鷹下連雀店 (有)宙<br>
+<b>住所:</b> 下連雀7-4-28
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀7-4-28</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹下連雀８丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹下連雀８丁目店<br>
+<b>住所:</b> 下連雀8-5-9
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀8-5-9</address>
+		</Placemark>
+		<Placemark>
+			<name>いなげや三鷹下連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> いなげや三鷹下連雀店<br>
+<b>住所:</b> 下連雀8-6-15
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀8-6-15</address>
+		</Placemark>
+		<Placemark>
+			<name>政喜屋みゆき商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 政喜屋みゆき商店<br>
+<b>住所:</b> 下連雀9-6-13
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀9-6-13</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹下連雀９丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹下連雀９丁目店<br>
+<b>住所:</b> 下連雀9-11-14
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀9-11-14</address>
+		</Placemark>
+		<Placemark>
+			<name>サンドラッグ三鷹南口店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンドラッグ三鷹南口店<br>
+<b>住所:</b> 下連雀3-25-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-25-11</address>
+		</Placemark>
+		<Placemark>
+			<name>㈱スマイルドラッグ三鷹駅南口店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ㈱スマイルドラッグ三鷹駅南口店<br>
+<b>住所:</b> 下連雀3-27-14
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-27-14</address>
+		</Placemark>
+		<Placemark>
+			<name>サンドラッグ三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンドラッグ三鷹店<br>
+<b>住所:</b> 下連雀3-28-20
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-28-20</address>
+		</Placemark>
+		<Placemark>
+			<name>ココカラファイン三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ココカラファイン三鷹店<br>
+<b>住所:</b> 下連雀3-34-20
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-34-20</address>
+		</Placemark>
+		<Placemark>
+			<name>スーパーあまいけ</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> スーパーあまいけ<br>
+<b>住所:</b> 下連雀6-17-34 メゾン三鷹
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀6-17-34 メゾン三鷹</address>
+		</Placemark>
+		<Placemark>
+			<name>いながきドラッグ 三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> いながきドラッグ 三鷹店<br>
+<b>住所:</b> 下連雀7-10-15
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀7-10-15</address>
+		</Placemark>
+		<Placemark>
+			<name>油屋あさの酒店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 油屋あさの酒店<br>
+<b>住所:</b> 牟礼2-13-45
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼2-13-45</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹牟礼４丁目店 (有)サンババ</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹牟礼４丁目店 (有)サンババ<br>
+<b>住所:</b> 牟礼4-9-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼4-9-11</address>
+		</Placemark>
+		<Placemark>
+			<name>佐々木牛乳店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 佐々木牛乳店<br>
+<b>住所:</b> 牟礼5-10-19
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼5-10-19</address>
+		</Placemark>
+		<Placemark>
+			<name>西友三鷹牟礼店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 西友三鷹牟礼店<br>
+<b>住所:</b> 牟礼6-8-12
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼6-8-12</address>
+		</Placemark>
+		<Placemark>
+			<name>綜合食品 吉乃や</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 綜合食品 吉乃や<br>
+<b>住所:</b> 牟礼6-21-14
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼6-21-14</address>
+		</Placemark>
+		<Placemark>
+			<name>ウェルパーク三鷹牟礼店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ウェルパーク三鷹牟礼店<br>
+<b>住所:</b> 牟礼4-8-8
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼4-8-8</address>
+		</Placemark>
+		<Placemark>
+			<name>サンドラッグ三鷹牟礼店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンドラッグ三鷹牟礼店<br>
+<b>住所:</b> 牟礼5-8-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼5-8-11</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹台米店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 三鷹台米店<br>
+<b>住所:</b> 井の頭1-22-6
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭1-22-6</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹台店 (有)ヤング浅野</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹台店 (有)ヤング浅野<br>
+<b>住所:</b> 井の頭1-30-16
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭1-30-16</address>
+		</Placemark>
+		<Placemark>
+			<name>サンクス三鷹台駅北店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンクス三鷹台駅北店<br>
+<b>住所:</b> 井の頭1-32-4
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭1-32-4</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹台駅前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹台駅前店<br>
+<b>住所:</b> 井の頭2-5-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭2-5-1</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン井の頭公園駅前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン井の頭公園駅前店<br>
+<b>住所:</b> 井の頭3-12-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭3-12-11</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)栗原ストアー</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)栗原ストアー<br>
+<b>住所:</b> 井の頭3-17-26
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭3-17-26</address>
+		</Placemark>
+		<Placemark>
+			<name>白洋舎井の頭公園駅前店 三河屋</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 白洋舎井の頭公園駅前店 三河屋<br>
+<b>住所:</b> 井の頭3-31-4
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭3-31-4</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート井の頭４丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート井の頭４丁目店<br>
+<b>住所:</b> 井の頭4-21-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭4-21-3</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン井の頭５丁目店 （資）板橋商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン井の頭５丁目店 （資）板橋商店<br>
+<b>住所:</b> 井の頭5-7-38
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭5-7-38</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)マルナカ</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)マルナカ<br>
+<b>住所:</b> 井の頭5-10-23
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭5-10-23</address>
+		</Placemark>
+		<Placemark>
+			<name>OdakyuOX三鷹台店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> OdakyuOX三鷹台店<br>
+<b>住所:</b> 井の頭2-5-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭2-5-2</address>
+		</Placemark>
+		<Placemark>
+			<name>㈱スマイルドラッグ三鷹台店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ㈱スマイルドラッグ三鷹台店<br>
+<b>住所:</b> 井の頭2-7-8
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭2-7-8</address>
+		</Placemark>
+		<Placemark>
+			<name>花屋酒店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 花屋酒店<br>
+<b>住所:</b> 中原1-25-23
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>中原1-25-23</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)鶴屋酒店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)鶴屋酒店<br>
+<b>住所:</b> 中原2-1-19
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>中原2-1-19</address>
+		</Placemark>
+		<Placemark>
+			<name>海老沢米店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 海老沢米店<br>
+<b>住所:</b> 中原2-1-22
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>中原2-1-22</address>
+		</Placemark>
+		<Placemark>
+			<name>グルメシティ三鷹中原店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> グルメシティ三鷹中原店<br>
+<b>住所:</b> 中原3-1-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>中原3-1-11</address>
+		</Placemark>
+		<Placemark>
+			<name>御菓子司さかい</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 御菓子司さかい<br>
+<b>住所:</b> 中原3-11-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>中原3-11-5</address>
+		</Placemark>
+		<Placemark>
+			<name>島田屋</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 島田屋<br>
+<b>住所:</b> 中原4-4-4
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>中原4-4-4</address>
+		</Placemark>
+		<Placemark>
+			<name>Ｙショップ栃倉</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> Ｙショップ栃倉<br>
+<b>住所:</b> 北野1-1-44
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>北野1-1-44</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹南原店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹南原店<br>
+<b>住所:</b> 北野2-4-9
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>北野2-4-9</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹新川1丁目店 ㈱橘屋</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹新川1丁目店 ㈱橘屋<br>
+<b>住所:</b> 新川1-11-12
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川1-11-12</address>
+		</Placemark>
+		<Placemark>
+			<name>㈱ホームピック三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ㈱ホームピック三鷹店<br>
+<b>住所:</b> 新川3-13-10
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川3-13-10</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹天神山通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹天神山通り店<br>
+<b>住所:</b> 新川4-2-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川4-2-2</address>
+		</Placemark>
+		<Placemark>
+			<name>イナギ薬品</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> イナギ薬品<br>
+<b>住所:</b> 新川4-9-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川4-9-7</address>
+		</Placemark>
+		<Placemark>
+			<name>サークルＫ三鷹新川団地店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サークルＫ三鷹新川団地店<br>
+<b>住所:</b> 新川4-11-15
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川4-11-15</address>
+		</Placemark>
+		<Placemark>
+			<name>御菓子司さかい（新川店）</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 御菓子司さかい（新川店）<br>
+<b>住所:</b> 新川5-9-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川5-9-5</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)千田新聞店 ASA三鷹新川店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)千田新聞店 ASA三鷹新川店<br>
+<b>住所:</b> 新川5-17-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川5-17-2</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹新川６丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹新川６丁目店<br>
+<b>住所:</b> 新川6-3-14
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川6-3-14</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート秀栄三鷹杏林前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート秀栄三鷹杏林前店<br>
+<b>住所:</b> 新川6-9-6
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川6-9-6</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹消研前店 (有)川誠</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹消研前店 (有)川誠<br>
+<b>住所:</b> 新川6-13-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川6-13-5</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン杏林大学病院店 ㈱ケイ・アール・ロジスティックス</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン杏林大学病院店 ㈱ケイ・アール・ロジスティックス<br>
+<b>住所:</b> 新川6-20-2杏林大学病院内
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川6-20-2杏林大学病院内</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)やまなし</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)やまなし<br>
+<b>住所:</b> 新川6-36-21
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川6-36-21</address>
+		</Placemark>
+		<Placemark>
+			<name>ツルハドラッグ 三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ツルハドラッグ 三鷹店<br>
+<b>住所:</b> 新川5-15-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川5-15-3</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹上連雀１丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹上連雀１丁目店<br>
+<b>住所:</b> 上連雀1-11-47
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀1-11-47</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)宮田酒店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)宮田酒店<br>
+<b>住所:</b> 上連雀1-18-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀1-18-3</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)富士屋商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)富士屋商店<br>
+<b>住所:</b> 上連雀2-3-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀2-3-2</address>
+		</Placemark>
+		<Placemark>
+			<name>髙島米店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 髙島米店<br>
+<b>住所:</b> 上連雀2-3-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀2-3-7</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹駅南口店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹駅南口店<br>
+<b>住所:</b> 上連雀2-4-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀2-4-3</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹新道北通り店 ㈱越後屋</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹新道北通り店 ㈱越後屋<br>
+<b>住所:</b> 上連雀3-3-12
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀3-3-12</address>
+		</Placemark>
+		<Placemark>
+			<name>マミーショップ</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> マミーショップ<br>
+<b>住所:</b> 上連雀5-7-19
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀5-7-19</address>
+		</Placemark>
+		<Placemark>
+			<name>サミットストア 上連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サミットストア 上連雀店<br>
+<b>住所:</b> 上連雀7-32-26
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀7-32-26</address>
+		</Placemark>
+		<Placemark>
+			<name>しなのや</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> しなのや<br>
+<b>住所:</b> 上連雀8-23-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀8-23-11</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)山中屋 横山商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)山中屋 横山商店<br>
+<b>住所:</b> 上連雀9-23-22
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀9-23-22</address>
+		</Placemark>
+		<Placemark>
+			<name>㈱スマイルドラッグ三鷹上連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ㈱スマイルドラッグ三鷹上連雀店<br>
+<b>住所:</b> 上連雀6-1-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀6-1-2</address>
+		</Placemark>
+		<Placemark>
+			<name>コモディ イイダ 三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> コモディ イイダ 三鷹店<br>
+<b>住所:</b> 上連雀6-29-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀6-29-7</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹富士見通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹富士見通り店<br>
+<b>住所:</b> 井口1-16-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井口1-16-2</address>
+		</Placemark>
+		<Placemark>
+			<name>三幸商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 三幸商店<br>
+<b>住所:</b> 井口2-4-34
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井口2-4-34</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹井口３丁目店 (有)酒の吉清</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹井口３丁目店 (有)酒の吉清<br>
+<b>住所:</b> 井口3-15-10
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井口3-15-10</address>
+		</Placemark>
+		<Placemark>
+			<name>デイリーヤマザキ三鷹井口４丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> デイリーヤマザキ三鷹井口４丁目店<br>
+<b>住所:</b> 井口4-2-25
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井口4-2-25</address>
+		</Placemark>
+		<Placemark>
+			<name>㈲石原ストアー</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ㈲石原ストアー<br>
+<b>住所:</b> 井口5-6-32
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井口5-6-32</address>
+		</Placemark>
+		<Placemark>
+			<name>サンクス三鷹井口店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンクス三鷹井口店<br>
+<b>住所:</b> 井口1-9-20
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井口1-9-20</address>
+		</Placemark>
+		<Placemark>
+			<name>サンドラッグ三鷹井口店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンドラッグ三鷹井口店<br>
+<b>住所:</b> 井口3-6-12
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井口3-6-12</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹天文台通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹天文台通り店<br>
+<b>住所:</b> 深大寺1-14-30
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>深大寺1-14-30</address>
+		</Placemark>
+		<Placemark>
+			<name>東野米店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 東野米店<br>
+<b>住所:</b> 深大寺2-11-12
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>深大寺2-11-12</address>
+		</Placemark>
+		<Placemark>
+			<name>マルメ佐藤青果</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> マルメ佐藤青果<br>
+<b>住所:</b> 深大寺2-17-10
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>深大寺2-17-10</address>
+		</Placemark>
+		<Placemark>
+			<name>スリーエフ深大寺店 (有)深大フルーツ</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> スリーエフ深大寺店 (有)深大フルーツ<br>
+<b>住所:</b> 深大寺2-35-51
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>深大寺2-35-51</address>
+		</Placemark>
+		<Placemark>
+			<name>(資)井上商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (資)井上商店<br>
+<b>住所:</b> 深大寺3-7-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>深大寺3-7-3</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹市障がい者ワーククラブ 三鷹市民センター売店 「ぽけっと」</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 三鷹市障がい者ワーククラブ 三鷹市民センター売店 「ぽけっと」<br>
+<b>住所:</b> 野崎1-1-1 三鷹市役所内
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>野崎1-1-1 三鷹市役所内</address>
+		</Placemark>
+		<Placemark>
+			<name>サミットストア 三鷹市役所前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サミットストア 三鷹市役所前店<br>
+<b>住所:</b> 野崎1-3-10
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>野崎1-3-10</address>
+		</Placemark>
+		<Placemark>
+			<name>山本商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 山本商店<br>
+<b>住所:</b> 野崎2-18-20
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>野崎2-18-20</address>
+		</Placemark>
+		<Placemark>
+			<name>(株)Ｊマート三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (株)Ｊマート三鷹店<br>
+<b>住所:</b> 野崎3-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>野崎3-7</address>
+		</Placemark>
+		<Placemark>
+			<name>ドンキホーテ東八三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ドンキホーテ東八三鷹店<br>
+<b>住所:</b> 野崎1-24
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>野崎1-24</address>
+		</Placemark>
+		<Placemark>
+			<name>喫茶ショップ ハーモニー 社福）にじの会</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 喫茶ショップ ハーモニー 社福）にじの会<br>
+<b>住所:</b> 大沢1-1-43
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>大沢1-1-43</address>
+		</Placemark>
+		<Placemark>
+			<name>喫茶ショップ オーソレミオ 社福）にじの会</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 喫茶ショップ オーソレミオ 社福）にじの会<br>
+<b>住所:</b> 大沢1-6-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>大沢1-6-3</address>
+		</Placemark>
+		<Placemark>
+			<name>カド(資)竹内商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> カド(資)竹内商店<br>
+<b>住所:</b> 大沢3-8-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>大沢3-8-5</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)いきいき野川 ふくじゅ薬品</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)いきいき野川 ふくじゅ薬品<br>
+<b>住所:</b> 大沢5-4-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>大沢5-4-3</address>
+		</Placemark>
+		<Placemark>
+			<name>社福)巣立ち会 巣立ち工房</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 社福)巣立ち会 巣立ち工房<br>
+<b>住所:</b> 大沢6-3-50 巣立ち工房
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>大沢6-3-50 巣立ち工房</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹大沢6丁目店 (有)オオタカ伊東商店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹大沢6丁目店 (有)オオタカ伊東商店<br>
+<b>住所:</b> 大沢6-9-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>大沢6-9-11</address>
+		</Placemark>
+		<Placemark>
+			<name>(有)マーサ</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> (有)マーサ<br>
+<b>住所:</b> 大沢6-10-29
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>大沢6-10-29</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹東急ストア</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 三鷹東急ストア<br>
+<b>住所:</b> 武蔵野市中町1-7-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>武蔵野市中町1-7-5</address>
+		</Placemark>
+		<Placemark>
+			<name>㈱トップ深大寺店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ㈱トップ深大寺店<br>
+<b>住所:</b> 調布市深大寺東町3-16-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>調布市深大寺東町3-16-1</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン調布富士見町店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン調布富士見町店<br>
+<b>住所:</b> 調布市富士見町3-24-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>調布市富士見町3-24-1</address>
+		</Placemark>
+		<Placemark>
+			<name>薬局トモズ三鷹南口店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 薬局トモズ三鷹南口店<br>
+<b>住所:</b> 下連雀3-32-19コスモ三鷹中央通り店
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-32-19コスモ三鷹中央通り店</address>
+		</Placemark>
+		<Placemark>
+			<name>サンクス三鷹新川六丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンクス三鷹新川六丁目店<br>
+<b>住所:</b> 新川6-32-16
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川6-32-16</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹駅南店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹駅南店<br>
+<b>住所:</b> 下連雀３－２９－１
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀３－２９－１</address>
+		</Placemark>
+		<Placemark>
+			<name>クリエイトエスディー 三鷹新川店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> クリエイトエスディー 三鷹新川店<br>
+<b>住所:</b> 三鷹市新川6-4-30
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市新川6-4-30</address>
+		</Placemark>
+		<Placemark>
+			<name>島忠ホームズ 仙川店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 島忠ホームズ 仙川店<br>
+<b>住所:</b> 調布市若葉町2-1-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>調布市若葉町2-1-7</address>
+		</Placemark>
+		<Placemark>
+			<name>京王ストア キッチンコート三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 京王ストア キッチンコート三鷹店<br>
+<b>住所:</b> 武蔵野市中町1-12-10 スカイゲートタワー２階
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>武蔵野市中町1-12-10 スカイゲートタワー２階</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹大沢1丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹大沢1丁目店<br>
+<b>住所:</b> 三鷹市大沢1-18-15
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市大沢1-18-15</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹連雀通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹連雀通り店<br>
+<b>住所:</b> 三鷹市下連雀6-7-38
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市下連雀6-7-38</address>
+		</Placemark>
+		<Placemark>
+			<name>ウエルシア 三鷹野崎店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ウエルシア 三鷹野崎店<br>
+<b>住所:</b> 三鷹市野崎1-16-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市野崎1-16-5</address>
+		</Placemark>
+		<Placemark>
+			<name>サミットストア三鷹台店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サミットストア三鷹台店<br>
+<b>住所:</b> 三鷹市牟礼2-14-25
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市牟礼2-14-25</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹牟礼店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹牟礼店<br>
+<b>住所:</b> 三鷹市牟礼7-5-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市牟礼7-5-11</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹上連雀九丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹上連雀九丁目店<br>
+<b>住所:</b> 三鷹市上連雀9-15-28
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市上連雀9-15-28</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹山中通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹山中通り店<br>
+<b>住所:</b> 三鷹市井口3-7-33
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市井口3-7-33</address>
+		</Placemark>
+		<Placemark>
+			<name>ドラッグストアマツモトキヨシ三鷹野崎店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ドラッグストアマツモトキヨシ三鷹野崎店<br>
+<b>住所:</b> 三鷹市野崎3-3-8
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市野崎3-3-8</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹野崎店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹野崎店<br>
+<b>住所:</b> 三鷹市野崎3-4-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市野崎3-4-3</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹新川2丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹新川2丁目店<br>
+<b>住所:</b> 三鷹市新川2-9-23
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市新川2-9-23</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹東八通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹東八通り店<br>
+<b>住所:</b> 三鷹市新川6-6-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市新川6-6-7</address>
+		</Placemark>
+		<Placemark>
+			<name>クリエイトエス・ディー三鷹下連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> クリエイトエス・ディー三鷹下連雀店<br>
+<b>住所:</b> 三鷹市下連雀4-14-16
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市下連雀4-14-16</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹牟礼3丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹牟礼3丁目店<br>
+<b>住所:</b> 三鷹市牟礼3-11-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市牟礼3-11-11</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹中原店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹中原店<br>
+<b>住所:</b> 三鷹市中原2-12-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市中原2-12-2</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹高校前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹高校前店<br>
+<b>住所:</b> 三鷹市新川6-7-17
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市新川6-7-17</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマートサンズ三鷹北野店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマートサンズ三鷹北野店<br>
+<b>住所:</b> 三鷹市北野4-8-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>三鷹市北野4-8-1</address>
+		</Placemark>
+		<Placemark>
+			<name>ASA三鷹南口店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ASA三鷹南口店<br>
+<b>住所:</b> 下連雀3-4-41
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-4-41</address>
+		</Placemark>
+		<Placemark>
+			<name>コープみらい コープ下連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> コープみらい コープ下連雀店<br>
+<b>住所:</b> 下連雀7-16-22
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀7-16-22</address>
+		</Placemark>
+		<Placemark>
+			<name>ニューデイズ三鷹</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ニューデイズ三鷹<br>
+<b>住所:</b> 下連雀3-46-1
+ＪＲ三鷹駅構内
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-46-1
+ＪＲ三鷹駅構内</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹中央通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹中央通り店<br>
+<b>住所:</b> 下連雀3-27-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-27-11</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹下連雀７丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹下連雀７丁目店<br>
+<b>住所:</b> 下連雀7-10-17
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀7-10-17</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート下連雀三丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート下連雀三丁目店<br>
+<b>住所:</b> 下連雀3-9-8
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-9-8</address>
+		</Placemark>
+		<Placemark>
+			<name>サンクス三鷹駅南店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> サンクス三鷹駅南店<br>
+<b>住所:</b> 下連雀3-37-38
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-37-38</address>
+		</Placemark>
+		<Placemark>
+			<name>ウエルシア三鷹下連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ウエルシア三鷹下連雀店<br>
+<b>住所:</b> 下連雀3-30-8
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-30-8</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹駅前中央通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹駅前中央通り店<br>
+<b>住所:</b> 下連雀3-34-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀3-34-5</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹むらさき橋通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹むらさき橋通り店<br>
+<b>住所:</b> 下連雀7-3-4
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>下連雀7-3-4</address>
+		</Placemark>
+		<Placemark>
+			<name>コープみらい コープ牟礼店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> コープみらい コープ牟礼店<br>
+<b>住所:</b> 牟礼5-3-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼5-3-1</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹台団地南店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹台団地南店<br>
+<b>住所:</b> 牟礼2-15-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼2-15-3</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹牟礼６丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹牟礼６丁目店<br>
+<b>住所:</b> 牟礼6-1-17
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼6-1-17</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹牟礼７丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹牟礼７丁目店<br>
+<b>住所:</b> 牟礼7-6-17
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>牟礼7-6-17</address>
+		</Placemark>
+		<Placemark>
+			<name>マツモトキヨシ三鷹台駅前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> マツモトキヨシ三鷹台駅前店<br>
+<b>住所:</b> 井の頭2-1-17
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>井の頭2-1-17</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート新川吉祥寺通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート新川吉祥寺通り店<br>
+<b>住所:</b> 新川2-4-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川2-4-2</address>
+		</Placemark>
+		<Placemark>
+			<name>マツモトキヨシ三鷹新川店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> マツモトキヨシ三鷹新川店<br>
+<b>住所:</b> 新川1-3-25
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川1-3-25</address>
+		</Placemark>
+		<Placemark>
+			<name>TAIRAYA三鷹新川店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> TAIRAYA三鷹新川店<br>
+<b>住所:</b> 新川5-6-23
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>新川5-6-23</address>
+		</Placemark>
+		<Placemark>
+			<name>ローソン三鷹上連雀四丁目店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ローソン三鷹上連雀四丁目店<br>
+<b>住所:</b> 上連雀4-10-4
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀4-10-4</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹武蔵境通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹武蔵境通り店<br>
+<b>住所:</b> 上連雀9-40-13
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀9-40-13</address>
+		</Placemark>
+		<Placemark>
+			<name>オーケー三鷹上連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> オーケー三鷹上連雀店<br>
+<b>住所:</b> 上連雀8-2-30
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>上連雀8-2-30</address>
+		</Placemark>
+		<Placemark>
+			<name>セブンイレブン三鷹野崎店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> セブンイレブン三鷹野崎店<br>
+<b>住所:</b> 野﨑3-28-24
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>野﨑3-28-24</address>
+		</Placemark>
+		<Placemark>
+			<name>ファミリーマート三鷹天文台通り店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ファミリーマート三鷹天文台通り店<br>
+<b>住所:</b> 野﨑3-26-21
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>野﨑3-26-21</address>
+		</Placemark>
+		<Placemark>
+			<name>ミニストップ三鷹野崎店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> ミニストップ三鷹野崎店<br>
+<b>住所:</b> 野﨑4-8-33
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>野﨑4-8-33</address>
+		</Placemark>
+		<Placemark>
+			<name>三省堂書店 ICU売店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> 三省堂書店 ICU売店<br>
+<b>住所:</b> 大沢3-10-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>大沢3-10-2</address>
+		</Placemark>
+		<Placemark>
+			<name>コープみらい コープ柴崎店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>店名:</b> コープみらい コープ柴崎店<br>
+<b>住所:</b> 調布市柴崎2-2-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>調布市柴崎2-2-1</address>
+		</Placemark>
+	</Document>
+</kml>

@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>牛乳パック等自主回収マップ</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+                <href>https://chankumao.files.wordpress.com/2016/01/pin2.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+                <href>https://chankumao.files.wordpress.com/2016/01/pin2.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>東児童館・東社会教育会館</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 東児童館・東社会教育会館<br>
+<b>住所:</b> 東京都三鷹市牟礼2-13-19
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市牟礼2-13-19</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹市総合保健センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 三鷹市総合保健センター<br>
+<b>住所:</b> 東京都三鷹市新川6-35-28
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市新川6-35-28</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹図書館（本館）</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 三鷹図書館（本館）<br>
+<b>住所:</b> 東京都三鷹市上連雀8-3-3
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市上連雀8-3-3</address>
+		</Placemark>
+		<Placemark>
+			<name>西児童館・西社会教育会館</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 西児童館・西社会教育会館<br>
+<b>住所:</b> 東京都三鷹市深大寺2-3-5
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市深大寺2-3-5</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹市役所</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 三鷹市役所<br>
+<b>住所:</b> 東京都三鷹市野崎1-1-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市野崎1-1-1</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹西部市政窓口</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 三鷹西部市政窓口<br>
+<b>住所:</b> 東京都三鷹市野崎3-28-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市野崎3-28-11</address>
+		</Placemark>
+		<Placemark>
+			<name>むらさき子どもひろば</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> むらさき子どもひろば<br>
+<b>住所:</b> 東京都三鷹市下連雀1-25-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市下連雀1-25-2</address>
+		</Placemark>
+		<Placemark>
+			<name>大沢コミュ二ティ・センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 大沢コミュ二ティ・センター<br>
+<b>住所:</b> 東京都三鷹市大沢4-25-30
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市大沢4-25-30</address>
+		</Placemark>
+		<Placemark>
+			<name>牟礼コミュ二ティ・センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 牟礼コミュ二ティ・センター<br>
+<b>住所:</b> 東京都三鷹市牟礼7-6-25
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市牟礼7-6-25</address>
+		</Placemark>
+		<Placemark>
+			<name>井口コミュ二ティ・センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 井口コミュ二ティ・センター<br>
+<b>住所:</b> 東京都三鷹市井口1-13-32
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市井口1-13-32</address>
+		</Placemark>
+		<Placemark>
+			<name>㈱オオゼキ</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> ㈱オオゼキ<br>
+<b>住所:</b> 東京都三鷹市下連雀3-25-11
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市下連雀3-25-11</address>
+		</Placemark>
+		<Placemark>
+			<name>井の頭コミュ二ティ・センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 井の頭コミュ二ティ・センター<br>
+<b>住所:</b> 東京都三鷹市井の頭2-32-30
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市井の頭2-32-30</address>
+		</Placemark>
+		<Placemark>
+			<name>コモディイイダ三鷹店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> コモディイイダ三鷹店<br>
+<b>住所:</b> 東京都三鷹市上連雀6-29-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市上連雀6-29-7</address>
+		</Placemark>
+		<Placemark>
+			<name>新川中原コミュ二ティ・センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 新川中原コミュ二ティ・センター<br>
+<b>住所:</b> 東京都三鷹市新川1-11-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市新川1-11-1</address>
+		</Placemark>
+		<Placemark>
+			<name>丸正三鷹駅前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 丸正三鷹駅前店<br>
+<b>住所:</b> 東京都三鷹市下連雀3-30-8
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市下連雀3-30-8</address>
+		</Placemark>
+		<Placemark>
+			<name>連雀コミュ二ティ・センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 連雀コミュ二ティ・センター<br>
+<b>住所:</b> 東京都三鷹市下連雀7-15-4
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市下連雀7-15-4</address>
+		</Placemark>
+		<Placemark>
+			<name>西友仙川店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 西友仙川店<br>
+<b>住所:</b> 東京都調布市仙川町1-11-18
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都調布市仙川町1-11-18</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹駅前コミュ二ティ・センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 三鷹駅前コミュ二ティ・センター<br>
+<b>住所:</b> 東京都三鷹市下連雀3-13-10
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市下連雀3-13-10</address>
+		</Placemark>
+		<Placemark>
+			<name>京王ストア仙川駅前ビル店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 京王ストア仙川駅前ビル店<br>
+<b>住所:</b> 東京都調布市仙川町1-43-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都調布市仙川町1-43-1</address>
+		</Placemark>
+		<Placemark>
+			<name>サミットストア上連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> サミットストア上連雀店<br>
+<b>住所:</b> 東京都三鷹市上連雀7-32-26
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市上連雀7-32-26</address>
+		</Placemark>
+		<Placemark>
+			<name>イトーヨーカドー武蔵境店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> イトーヨーカドー武蔵境店<br>
+<b>住所:</b> 東京都蔵野市境南町2-2-20
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都蔵野市境南町2-2-20</address>
+		</Placemark>
+		<Placemark>
+			<name>グルメシティ神代店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> グルメシティ神代店<br>
+<b>住所:</b> 東京都調布市深大寺北町6-52-8
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都調布市深大寺北町6-52-8</address>
+		</Placemark>
+		<Placemark>
+			<name>トップ深大寺店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> トップ深大寺店<br>
+<b>住所:</b> 東京都調布市深大寺東町3-16-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都調布市深大寺東町3-16-1</address>
+		</Placemark>
+		<Placemark>
+			<name>消費者活動センター</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 消費者活動センター<br>
+<b>住所:</b> 東京都東京都三鷹市下連雀3-22-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都東京都三鷹市下連雀3-22-7</address>
+		</Placemark>
+		<Placemark>
+			<name>いなげや三鷹下連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> いなげや三鷹下連雀店<br>
+<b>住所:</b> 東京都三鷹市下連雀8-6-15
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市下連雀8-6-15</address>
+		</Placemark>
+		<Placemark>
+			<name>いなげや三鷹牟礼店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> いなげや三鷹牟礼店<br>
+<b>住所:</b> 東京都三鷹市牟礼6-2-20
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市牟礼6-2-20</address>
+		</Placemark>
+		<Placemark>
+			<name>Odａｋｙｕ ＯＸ三鷹台店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> Odａｋｙｕ ＯＸ三鷹台店<br>
+<b>住所:</b> 東京都三鷹市井の頭2-5-2
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市井の頭2-5-2</address>
+		</Placemark>
+		<Placemark>
+			<name>京王ストア野崎店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 京王ストア野崎店<br>
+<b>住所:</b> 東京都三鷹市野崎3-5-31
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市野崎3-5-31</address>
+		</Placemark>
+		<Placemark>
+			<name>コープとうきょう牟礼店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> コープとうきょう牟礼店<br>
+<b>住所:</b> 東京都三鷹市牟礼5-3-1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市牟礼5-3-1</address>
+		</Placemark>
+		<Placemark>
+			<name>コープとうきょう下連雀店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> コープとうきょう下連雀店<br>
+<b>住所:</b> 東京都三鷹市下連雀7-16-22
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市下連雀7-16-22</address>
+		</Placemark>
+		<Placemark>
+			<name>西友三鷹牟礼店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 西友三鷹牟礼店<br>
+<b>住所:</b> 東京都三鷹市牟礼6-8-12
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市牟礼6-8-12</address>
+		</Placemark>
+		<Placemark>
+			<name>サミット三鷹市役所前店</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> サミット三鷹市役所前店<br>
+<b>住所:</b> 東京都三鷹市野崎1-3-10
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市野崎1-3-10</address>
+		</Placemark>
+		<Placemark>
+			<name>社会教育会館・下連雀図書館</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 社会教育会館・下連雀図書館<br>
+<b>住所:</b> 東京都三鷹市下連雀6-13-13
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市下連雀6-13-13</address>
+		</Placemark>
+		<Placemark>
+			<name>三鷹市リサイクル市民工房</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>場所名:</b> 三鷹市リサイクル市民工房<br>
+<b>住所:</b> 東京都三鷹市深大寺2-16-13
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/>
+			<address>東京都三鷹市深大寺2-16-13</address>
+		</Placemark>
+	</Document>
+</kml>
