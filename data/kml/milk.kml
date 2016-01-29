@@ -1,485 +1,788 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<kml xmlns='http://www.opengis.net/kml/2.2'>
-	<Document>
-		<name>牛乳パック等自主回収マップ</name>
-		<Style id='Style2-point-1'>
-			<IconStyle>
-				<color>ff0000ff</color>
-				<scale>1.0</scale>
-				<Icon>
-                <href>https://chankumao.files.wordpress.com/2016/01/pin2.png</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text>$[description]</text>
-			</BalloonStyle>
-		</Style>
-		<Style id='Style2-point-1-hover'>
-			<IconStyle>
-				<color>ff0000ff</color>
-				<scale>1.0</scale>
-				<Icon>
-                <href>https://chankumao.files.wordpress.com/2016/01/pin2.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text>$[description]</text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='Style2-point-1-map'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#Style2-point-1</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#Style2-point-1-hover</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='Style2-line-2'>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-			<LineStyle>
-				<color>800000ff</color>
-				<width>2</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text>$[description]</text>
-			</BalloonStyle>
-		</Style>
-		<Style id='Style2-line-2-hover'>
-			<LineStyle>
-				<color>800000ff</color>
-				<width>2</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text>$[description]</text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='Style2-line-2-map'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#Style2-line-2</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#Style2-line-2-hover</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='Style2-polygon-3'>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff666666</color>
-				<width>1</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>7f0000ff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text>$[description]</text>
-			</BalloonStyle>
-		</Style>
-		<Style id='Style2-polygon-3-hover'>
-			<LineStyle>
-				<color>ff666666</color>
-				<width>1</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>7f0000ff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text>$[description]</text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='Style2-polygon-3-map'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#Style2-polygon-3</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#Style2-polygon-3-hover</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Placemark>
-			<name>東児童館・東社会教育会館</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>牛乳パック等自主回収マップ</name>
+	<Style id="Style2-point-1-hover">
+		<IconStyle>
+
+			<Icon>
+				<href>img/pin2.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="Style2-point-1-map">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Style2-point-1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Style2-point-1-hover</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Style2-point-1">
+		<IconStyle>
+			<Icon>
+				<href>img/pin2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<name>東児童館・東社会教育会館</name>
+		<address>東京都三鷹市牟礼2-13-19</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 東児童館・東社会教育会館<br>
 <b>住所:</b> 東京都三鷹市牟礼2-13-19
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市牟礼2-13-19</address>
-		</Placemark>
-		<Placemark>
-			<name>三鷹市総合保健センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5846569,35.6842049,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.581103021404,35.6815394910532,0 139.581103021404,35.6868703089468,0 139.588210778596,35.6868703089468,0 139.588210778596,35.6815394910532,0 139.581103021404,35.6815394910532,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>三鷹市総合保健センター</name>
+		<address>東京都三鷹市新川6-35-28</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 三鷹市総合保健センター<br>
 <b>住所:</b> 東京都三鷹市新川6-35-28
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市新川6-35-28</address>
-		</Placemark>
-		<Placemark>
-			<name>三鷹図書館（本館）</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5639671,35.6823631,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.56041314464,35.6796976334798,0 139.56041314464,35.6850285665202,0 139.56752105536,35.6850285665202,0 139.56752105536,35.6796976334798,0 139.56041314464,35.6796976334798,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>三鷹図書館（本館）</name>
+		<address>東京都三鷹市上連雀8-3-3</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 三鷹図書館（本館）<br>
 <b>住所:</b> 東京都三鷹市上連雀8-3-3
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市上連雀8-3-3</address>
-		</Placemark>
-		<Placemark>
-			<name>西児童館・西社会教育会館</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5581093,35.6852489,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.554555476236,35.682583532177,0 139.554555476236,35.6879142678229,0 139.561663123764,35.6879142678229,0 139.561663123764,35.682583532177,0 139.554555476236,35.682583532177,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>西児童館・西社会教育会館</name>
+		<address>東京都三鷹市深大寺2-3-5</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 西児童館・西社会教育会館<br>
 <b>住所:</b> 東京都三鷹市深大寺2-3-5
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市深大寺2-3-5</address>
-		</Placemark>
-		<Placemark>
-			<name>三鷹市役所</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5451742,35.688662,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.541620518799,35.685996739099,0 139.541620518799,35.691327260901,0 139.548727881201,35.691327260901,0 139.548727881201,35.685996739099,0 139.541620518799,35.685996739099,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>三鷹市役所</name>
+		<address>東京都三鷹市野崎1-1-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 三鷹市役所<br>
 <b>住所:</b> 東京都三鷹市野崎1-1-1
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市野崎1-1-1</address>
-		</Placemark>
-		<Placemark>
-			<name>三鷹西部市政窓口</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5601342,35.6825186,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.55658024464,35.6798531334798,0 139.55658024464,35.6851840665202,0 139.56368815536,35.6851840665202,0 139.56368815536,35.6798531334798,0 139.55658024464,35.6798531334798,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>三鷹西部市政窓口</name>
+		<address>東京都三鷹市野崎3-28-11</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 三鷹西部市政窓口<br>
 <b>住所:</b> 東京都三鷹市野崎3-28-11
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市野崎3-28-11</address>
-		</Placemark>
-		<Placemark>
-			<name>むらさき子どもひろば</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5389581,35.6839122,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.535404210438,35.6812467828284,0 139.535404210438,35.6865776171716,0 139.542511989562,35.6865776171716,0 139.542511989562,35.6812467828284,0 139.535404210438,35.6812467828284,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>むらさき子どもひろば</name>
+		<address>東京都三鷹市下連雀1-25-2</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> むらさき子どもひろば<br>
 <b>住所:</b> 東京都三鷹市下連雀1-25-2
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市下連雀1-25-2</address>
-		</Placemark>
-		<Placemark>
-			<name>大沢コミュ二ティ・センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5681608,35.6949618,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.564607403924,35.692296752943,0 139.564607403924,35.697626847057,0 139.571714196076,35.697626847057,0 139.571714196076,35.692296752943,0 139.564607403924,35.692296752943,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>大沢コミュ二ティ・センター</name>
+		<address>東京都三鷹市大沢4-25-30</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 大沢コミュ二ティ・センター<br>
 <b>住所:</b> 東京都三鷹市大沢4-25-30
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市大沢4-25-30</address>
-		</Placemark>
-		<Placemark>
-			<name>牟礼コミュ二ティ・センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5372395,35.6686892,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.533684930524,35.6660232728928,0 139.533684930524,35.6713551271072,0 139.540794069476,35.6713551271072,0 139.540794069476,35.6660232728928,0 139.533684930524,35.6660232728928,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>牟礼コミュ二ティ・センター</name>
+		<address>東京都三鷹市牟礼7-6-25</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 牟礼コミュ二ティ・センター<br>
 <b>住所:</b> 東京都三鷹市牟礼7-6-25
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市牟礼7-6-25</address>
-		</Placemark>
-		<Placemark>
-			<name>井口コミュ二ティ・センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5747966,35.6849408,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.571242754303,35.6822754157275,0 139.571242754303,35.6876061842725,0 139.578350445697,35.6876061842725,0 139.578350445697,35.6822754157275,0 139.571242754303,35.6822754157275,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>井口コミュ二ティ・センター</name>
+		<address>東京都三鷹市井口1-13-32</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 井口コミュ二ティ・センター<br>
 <b>住所:</b> 東京都三鷹市井口1-13-32
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市井口1-13-32</address>
-		</Placemark>
-		<Placemark>
-			<name>㈱オオゼキ</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5485238,35.6934893,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.544970338126,35.6908242035944,0 139.544970338126,35.6961543964056,0 139.552077261874,35.6961543964056,0 139.552077261874,35.6908242035944,0 139.544970338126,35.6908242035944,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>㈱オオゼキ</name>
+		<address>東京都三鷹市下連雀3-25-11</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> ㈱オオゼキ<br>
 <b>住所:</b> 東京都三鷹市下連雀3-25-11
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市下連雀3-25-11</address>
-		</Placemark>
-		<Placemark>
-			<name>井の頭コミュ二ティ・センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5616223,35.7019776,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.558069210982,35.6993127832365,0 139.558069210982,35.7046424167635,0 139.565175389018,35.7046424167635,0 139.565175389018,35.6993127832365,0 139.558069210982,35.6993127832365,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>井の頭コミュ二ティ・センター</name>
+		<address>東京都三鷹市井の頭2-32-30</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 井の頭コミュ二ティ・センター<br>
 <b>住所:</b> 東京都三鷹市井の頭2-32-30
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市井の頭2-32-30</address>
-		</Placemark>
-		<Placemark>
-			<name>コモディイイダ三鷹店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5831679,35.6938206,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.579614449092,35.6911555118192,0 139.579614449092,35.6964856881808,0 139.586721350908,35.6964856881808,0 139.586721350908,35.6911555118192,0 139.579614449092,35.6911555118192,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>コモディイイダ三鷹店</name>
+		<address>東京都三鷹市上連雀6-29-7</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> コモディイイダ三鷹店<br>
 <b>住所:</b> 東京都三鷹市上連雀6-29-7
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市上連雀6-29-7</address>
-		</Placemark>
-		<Placemark>
-			<name>新川中原コミュ二ティ・センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5553302,35.6889336,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.551776540731,35.6862683555486,0 139.551776540731,35.6915988444514,0 139.558883859269,35.6915988444514,0 139.558883859269,35.6862683555486,0 139.551776540731,35.6862683555486,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>新川中原コミュ二ティ・センター</name>
+		<address>東京都三鷹市新川1-11-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 新川中原コミュ二ティ・センター<br>
 <b>住所:</b> 東京都三鷹市新川1-11-1
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市新川1-11-1</address>
-		</Placemark>
-		<Placemark>
-			<name>丸正三鷹駅前店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5758693,35.6688647,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.57231474149,35.6661987811176,0 139.57231474149,35.6715306188824,0 139.57942385851,35.6715306188824,0 139.57942385851,35.6661987811176,0 139.57231474149,35.6661987811176,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>丸正三鷹駅前店</name>
+		<address>東京都三鷹市下連雀3-30-8</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 丸正三鷹駅前店<br>
 <b>住所:</b> 東京都三鷹市下連雀3-30-8
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市下連雀3-30-8</address>
-		</Placemark>
-		<Placemark>
-			<name>連雀コミュ二ティ・センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5613391,35.6977141,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.557785824554,35.6950491434155,0 139.557785824554,35.7003790565845,0 139.564892375446,35.7003790565845,0 139.564892375446,35.6950491434155,0 139.557785824554,35.6950491434155,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>連雀コミュ二ティ・センター</name>
+		<address>東京都三鷹市下連雀7-15-4</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 連雀コミュ二ティ・センター<br>
 <b>住所:</b> 東京都三鷹市下連雀7-15-4
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市下連雀7-15-4</address>
-		</Placemark>
-		<Placemark>
-			<name>西友仙川店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5609588,35.6924731,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.55740529426,35.6898079706953,0 139.55740529426,35.6951382293047,0 139.56451230574,35.6951382293047,0 139.56451230574,35.6898079706953,0 139.55740529426,35.6898079706953,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>西友仙川店</name>
+		<address>東京都調布市仙川町1-11-18</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 西友仙川店<br>
 <b>住所:</b> 東京都調布市仙川町1-11-18
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都調布市仙川町1-11-18</address>
-		</Placemark>
-		<Placemark>
-			<name>三鷹駅前コミュ二ティ・センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5845245,35.6618741,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.580969634432,35.659207950824,0 139.580969634432,35.6645402491759,0 139.588079365568,35.6645402491759,0 139.588079365568,35.659207950824,0 139.580969634432,35.659207950824,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>三鷹駅前コミュ二ティ・センター</name>
+		<address>東京都三鷹市下連雀3-13-10</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 三鷹駅前コミュ二ティ・センター<br>
 <b>住所:</b> 東京都三鷹市下連雀3-13-10
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市下連雀3-13-10</address>
-		</Placemark>
-		<Placemark>
-			<name>京王ストア仙川駅前ビル店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5630612,35.6995501,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.559508012285,35.6968852092136,0 139.559508012285,35.7022149907864,0 139.566614387715,35.7022149907864,0 139.566614387715,35.6968852092136,0 139.559508012285,35.6968852092136,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>京王ストア仙川駅前ビル店</name>
+		<address>東京都調布市仙川町1-43-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 京王ストア仙川駅前ビル店<br>
 <b>住所:</b> 東京都調布市仙川町1-43-1
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都調布市仙川町1-43-1</address>
-		</Placemark>
-		<Placemark>
-			<name>サミットストア上連雀店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5848383,35.662324,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.581283445398,35.6596578590488,0 139.581283445398,35.6649901409512,0 139.588393154602,35.6649901409512,0 139.588393154602,35.6596578590488,0 139.581283445398,35.6596578590488,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>サミットストア上連雀店</name>
+		<address>東京都三鷹市上連雀7-32-26</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> サミットストア上連雀店<br>
 <b>住所:</b> 東京都三鷹市上連雀7-32-26
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市上連雀7-32-26</address>
-		</Placemark>
-		<Placemark>
-			<name>イトーヨーカドー武蔵境店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5509181,35.6913035,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.547364539429,35.6886383295715,0 139.547364539429,35.6939686704285,0 139.554471660571,35.6939686704285,0 139.554471660571,35.6886383295715,0 139.547364539429,35.6886383295715,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>イトーヨーカドー武蔵境店</name>
+		<address>東京都蔵野市境南町2-2-20</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> イトーヨーカドー武蔵境店<br>
 <b>住所:</b> 東京都蔵野市境南町2-2-20
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都蔵野市境南町2-2-20</address>
-		</Placemark>
-		<Placemark>
-			<name>グルメシティ神代店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.545732,35.701144,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.542178878083,35.6984791585622,0 139.542178878083,35.7038088414378,0 139.549285121917,35.7038088414378,0 139.549285121917,35.6984791585622,0 139.542178878083,35.6984791585622,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>グルメシティ神代店</name>
+		<address>東京都調布市深大寺北町6-52-8</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> グルメシティ神代店<br>
 <b>住所:</b> 東京都調布市深大寺北町6-52-8
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都調布市深大寺北町6-52-8</address>
-		</Placemark>
-		<Placemark>
-			<name>トップ深大寺店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5457216,35.6813351,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.542167600774,35.6786696005808,0 139.542167600774,35.6840005994192,0 139.549275599226,35.6840005994192,0 139.549275599226,35.6786696005808,0 139.542167600774,35.6786696005808,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>トップ深大寺店</name>
+		<address>東京都調布市深大寺東町3-16-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> トップ深大寺店<br>
 <b>住所:</b> 東京都調布市深大寺東町3-16-1
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都調布市深大寺東町3-16-1</address>
-		</Placemark>
-		<Placemark>
-			<name>消費者活動センター</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5624039,35.6682092,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.558849308591,35.6655432564433,0 139.558849308591,35.6708751435567,0 139.565958491409,35.6708751435567,0 139.565958491409,35.6655432564433,0 139.558849308591,35.6655432564433,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>消費者活動センター</name>
+		<address>東京都東京都三鷹市下連雀3-22-7</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 消費者活動センター<br>
 <b>住所:</b> 東京都東京都三鷹市下連雀3-22-7
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都東京都三鷹市下連雀3-22-7</address>
-		</Placemark>
-		<Placemark>
-			<name>いなげや三鷹下連雀店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5621001,35.7007305,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.55854695615,35.6980656421127,0 139.55854695615,35.7033953578873,0 139.56565324385,35.7033953578873,0 139.56565324385,35.6980656421127,0 139.55854695615,35.6980656421127,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>いなげや三鷹下連雀店</name>
+		<address>東京都三鷹市下連雀8-6-15</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> いなげや三鷹下連雀店<br>
 <b>住所:</b> 東京都三鷹市下連雀8-6-15
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市下連雀8-6-15</address>
-		</Placemark>
-		<Placemark>
-			<name>いなげや三鷹牟礼店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5637977,35.6840935,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.560243821404,35.6814280910532,0 139.560243821404,35.6867589089468,0 139.567351578596,35.6867589089468,0 139.567351578596,35.6814280910532,0 139.560243821404,35.6814280910532,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>いなげや三鷹牟礼店</name>
+		<address>東京都三鷹市牟礼6-2-20</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> いなげや三鷹牟礼店<br>
 <b>住所:</b> 東京都三鷹市牟礼6-2-20
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市牟礼6-2-20</address>
-		</Placemark>
-		<Placemark>
-			<name>Odａｋｙｕ ＯＸ三鷹台店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5765825,35.6886265,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.573028818799,35.685961239099,0 139.573028818799,35.691291760901,0 139.580136181201,35.691291760901,0 139.580136181201,35.685961239099,0 139.573028818799,35.685961239099,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>Odａｋｙｕ ＯＸ三鷹台店</name>
+		<address>東京都三鷹市井の頭2-5-2</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> Odａｋｙｕ ＯＸ三鷹台店<br>
 <b>住所:</b> 東京都三鷹市井の頭2-5-2
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市井の頭2-5-2</address>
-		</Placemark>
-		<Placemark>
-			<name>京王ストア野崎店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.588073,35.692282,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.584519483294,35.6896168624706,0 139.584519483294,35.6949471375294,0 139.591626516706,35.6949471375294,0 139.591626516706,35.6896168624706,0 139.584519483294,35.6896168624706,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>京王ストア野崎店</name>
+		<address>東京都三鷹市野崎3-5-31</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 京王ストア野崎店<br>
 <b>住所:</b> 東京都三鷹市野崎3-5-31
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市野崎3-5-31</address>
-		</Placemark>
-		<Placemark>
-			<name>コープとうきょう牟礼店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5449827,35.6844431,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.541428832371,35.681777699278,0 139.541428832371,35.687108500722,0 139.548536567629,35.687108500722,0 139.548536567629,35.681777699278,0 139.541428832371,35.681777699278,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>コープとうきょう牟礼店</name>
+		<address>東京都三鷹市牟礼5-3-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> コープとうきょう牟礼店<br>
 <b>住所:</b> 東京都三鷹市牟礼5-3-1
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市牟礼5-3-1</address>
-		</Placemark>
-		<Placemark>
-			<name>コープとうきょう下連雀店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5808517,35.6827883,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.577297766572,35.6801228499294,0 139.577297766572,35.6854537500706,0 139.584405633427,35.6854537500706,0 139.584405633427,35.6801228499294,0 139.577297766572,35.6801228499294,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>コープとうきょう下連雀店</name>
+		<address>東京都三鷹市下連雀7-16-22</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> コープとうきょう下連雀店<br>
 <b>住所:</b> 東京都三鷹市下連雀7-16-22
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市下連雀7-16-22</address>
-		</Placemark>
-		<Placemark>
-			<name>西友三鷹牟礼店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5602866,35.6924703,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.55673309426,35.6898051706953,0 139.55673309426,35.6951354293047,0 139.56384010574,35.6951354293047,0 139.56384010574,35.6898051706953,0 139.55673309426,35.6898051706953,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>西友三鷹牟礼店</name>
+		<address>東京都三鷹市牟礼6-8-12</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 西友三鷹牟礼店<br>
 <b>住所:</b> 東京都三鷹市牟礼6-8-12
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市牟礼6-8-12</address>
-		</Placemark>
-		<Placemark>
-			<name>サミット三鷹市役所前店</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5760965,35.685874,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.572542698169,35.6832086486266,0 139.572542698169,35.6885393513734,0 139.579650301831,35.6885393513734,0 139.579650301831,35.6832086486266,0 139.572542698169,35.6832086486266,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>サミット三鷹市役所前店</name>
+		<address>東京都三鷹市野崎1-3-10</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> サミット三鷹市役所前店<br>
 <b>住所:</b> 東京都三鷹市野崎1-3-10
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市野崎1-3-10</address>
-		</Placemark>
-		<Placemark>
-			<name>社会教育会館・下連雀図書館</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5579177,35.6833157,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.554363788505,35.6806502663789,0 139.554363788505,35.6859811336211,0 139.561471611495,35.6859811336211,0 139.561471611495,35.6806502663789,0 139.554363788505,35.6806502663789,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>社会教育会館・下連雀図書館</name>
+		<address>東京都三鷹市下連雀6-13-13</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 社会教育会館・下連雀図書館<br>
 <b>住所:</b> 東京都三鷹市下連雀6-13-13
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市下連雀6-13-13</address>
-		</Placemark>
-		<Placemark>
-			<name>三鷹市リサイクル市民工房</name>
-			<snippet></snippet>
-			<description><![CDATA[<div class="googft-info-window">
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5653196,35.6887763,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.561765929765,35.6861110473238,0 139.561765929765,35.6914415526762,0 139.568873270235,35.6914415526762,0 139.568873270235,35.6861110473238,0 139.561765929765,35.6861110473238,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>三鷹市リサイクル市民工房</name>
+		<address>東京都三鷹市深大寺2-16-13</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
 <b>場所名:</b> 三鷹市リサイクル市民工房<br>
 <b>住所:</b> 東京都三鷹市深大寺2-16-13
 </div>]]></description>
-			<styleUrl>#Style2-point-1-map</styleUrl>
-			<ExtendedData/>
-			<address>東京都三鷹市深大寺2-16-13</address>
-		</Placemark>
-	</Document>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.5426579,35.6892012,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.539104251698,35.6865359637733,0 139.539104251698,35.6918664362267,0 139.546211548302,35.6918664362267,0 139.546211548302,35.6865359637733,0 139.539104251698,35.6865359637733,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+</Document>
 </kml>

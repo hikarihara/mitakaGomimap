@@ -24,21 +24,28 @@
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
 </head>
 <body>
+    <div class="title"><img src="data/kml/img/title.png"></div>
+    
+    
+<!--
 	<div class="geocode">
 		<form action="javascript:geocode()" class="textbox" />
 		<input id="inputtext" class="textbox" type="text" value="" placeholder="地名で検索"/>
 	</form>
-</div>
+	</div>
+-->
 <div id="svNotAvailable" onclick="fadeInOut(svNotAvailable,0)"></div>
 <div id="blackOut">
 	<img class="loading" src="data/loading.gif">
 </div>
 <div id="cesiumContainer"></div>
+<!--
 <div id="button" class="general-button">
 	<div class="button-content">
 		<span class="icon-font">menu</span>
 	</div>
 </div>
+-->
 <div id="button2" class="general-button" onclick="help();">
 	<div class="button-content">
 		<span class="icon-font">help</span>
@@ -104,9 +111,9 @@ function viewPoints(_label, _lat, _lng, _heading, _pitch, _range) {
 }
 
 var viewPointsArray=[];
-viewPointsArray[0]=new viewPoints("首都大",35.661,139.3657347,0,-45,1000);
-    viewPointsArray[1]=new viewPoints("三鷹市",35.405,139.333088,0,-45,1000);
-    viewPointsArray[2]=new viewPoints("初期視点",35.405,139.333088,0,-45,1000);
+    viewPointsArray[0]=new viewPoints("吉祥寺駅", 35.703149,139.579807,0,-45,1000);
+    viewPointsArray[1]=new viewPoints("三鷹駅",35.702705,139.560927,0,-45,1000);
+    viewPointsArray[2]=new viewPoints("初期視点",35.681261,139.558710,0,-45,2000);
 
 //視点メニュー作成
 
@@ -150,11 +157,20 @@ var viewer = new Cesium.Viewer('cesiumContainer',{
 	animation: false,
 	sceneModePicker:false,
 	baseLayerPicker:false,
-	scene3DOnly : true
+	scene3DOnly : true,
+    sceneMode : Cesium.SceneMode.COLUMBUS_VIEW,
+    homeButton : false
 });
+    
+
+    
+//常に北を上にする
+    
+viewer.scene.screenSpaceCameraController.enableLook = false;
+viewer.scene.screenSpaceCameraController.enableTilt = false;
 
 //地形メッシュを設定
-
+/*
 var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
 	url : '//assets.agi.com/stk-terrain/world',
 	requestWaterMask : true,
@@ -165,7 +181,7 @@ viewer.terrainProvider = cesiumTerrainProviderMeshes;
 //地形を強調する際は値を変更
 
 viewer.terrainExaggeration = 1.0;
-
+*/
 //フォグ
 
 var fog = new Cesium.Fog();
@@ -173,6 +189,8 @@ fog.density = 0.0005;
 fog.screenSpaceErrorFactor = 100.0;
 
 //起動シークエンス
+    
+changeViewPoint(0,0);
 
 $(function() {
 	$('.cesium-widget-credits').css('display', 'none');
@@ -227,7 +245,7 @@ function openStreetMapLayer (){
 
 	//OSMの不透明度をデフォルト0に
 
-	openStreetMap.alpha = 0;
+	openStreetMap.alpha = 1;
 
 	//オーバーレイ配列作成関数
 
@@ -237,7 +255,7 @@ function openStreetMapLayer (){
 		this.overlayObj = _overlayObj;
 		this.id = _id;
 	}
-	overlayDataArray[0]=new overlayData("現在の地図",0,openStreetMap,"range01");
+	overlayDataArray[0]=new overlayData("現在の地図",100,openStreetMap,"range01");
 
 	var overlayList = "";
 	for (var i=0; i<overlayDataArray.length; i++) {
@@ -374,7 +392,7 @@ function flyToMyLocation() {
 //ヘルプ
 
 function help(){
-	window.open('http://labo.wtnv.jp/');
+	window.open('help.html');
 }
 
 //DIVのフェードイン・アウト	関数
